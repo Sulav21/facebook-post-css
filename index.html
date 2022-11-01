@@ -4,35 +4,122 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-
-    <title>Facebook Page Style</title>
+    <link rel="stylesheet" href="facebook.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Facebook Post Card</title>
   </head>
   <body>
-    <h1 class="loading">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates,
-      labore?
-    </h1>
-    <p class="loading">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-      distinctio totam voluptates consequatur expedita!
-    </p>
-    <p class="loading">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-    <p class="loading">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt,
-      quisquam!
-    </p>
+    <article class="fb-post-card">
+      <header class="fb-post-card__header">
+        <div class="fb-post-card__header__left">
+          <div class="author-avatar">
+            <img src="imgs/rahul-giri-avatar.jpg" alt="" />
+          </div>
+          <div class="author-info">
+            <div class="author-info__name">
+              <strong>Sulav Adhikari</strong> is with<strong>
+                Leela Queen</strong
+              >
+            </div>
+            <div class="author-info_date text-gray">
+              Today at 22:24 <i class="fa-solid fa-earth-oceania"></i>
+            </div>
+          </div>
+        </div>
+        <div class="fb-post-card__header__right text-gray">
+          <i class="fas fa-ellipsis-h"></i>
+        </div>
+      </header>
+      <main class="fb-post-card__body">
+        <section class="fb-post-card__body__text">
+          <p>
+            Lorem ipsum dolor sit <strong>Lorem, ipsum.</strong>amet consectetur
+            adipisicing elit. Aspernatur, laudantium.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+            fugit, itaque repudiandae nobis voluptate odit ipsum eum a
+            voluptatibus, quam facere, impedit quibusdam adipisci sint? Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Dicta, nobis!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam qui
+            sapiente aliquam tenetur ipsam eaque mollitia incidunt?
+          </p>
+        </section>
+        <div class="fb-post-card__body__media">
+          <img src="imgs/body-image.png" alt="" />
+        </div>
+      </main>
+      <footer class="fb-post-card__footer">
+        <div class="fb-post-card__footer__social-proof">
+          <div class="social-proof__left">
+            <img src="icons/likes.svg" class="icon" alt="" />
+            <img src="icons/heart.svg" class="icon" alt="" />
+            <img src="icons/hug.svg" class="icon" alt="" />
+            <span class="text-gray">22k</span>
+          </div>
+          <div class="social-proof__right">
+            <div class="social-proof-comments text-gray">212 comments</div>
+            <div class="social-proof-share text-gray">22 share</div>
+          </div>
+        </div>
+        <div class="fb-post-card__footer__reaction">
+          <div class="text-gray"><i class="far fa-thumbs-up"></i>Like</div>
+          <div class="text-gray"><i class="far fa-comment-alt"></i>Comment</div>
+          <div class="text-gray"><i class="fas fa-share"></i>Share</div>
+        </div>
+        <div class="fb-post-card__footer__comments">
+          <p><a href="#">View 25 more comments</a></p>
+          <div class="comment-box__comment">
+            <div class="author-avatar">
+              <img src="imgs/rahul-giri-avatar-v2.jpg" alt="" />
+            </div>
+            <div class="comment-body">
+              <div class="comment-body__content">
+                <h4 class="comment-author">Sulav Adhikari</h4>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Fugit explicabo alias accusantium cumque porro eveniet!
+                </p>
+              </div>
+              <div class="comment-body__count">
+                <img src="icons/heart.svg" class="icon" alt="" /> 12
+              </div>
+              <div class="comment-body__reaction fs-90">
+                <span>Like</span>
+                <span>Reply</span>
+                <span>9h</span>
+              </div>
+            </div>
+            <span class="comment-menu">
+              <i class="fas fa-ellipsis-h"></i>
+            </span>
+          </div>
+          <div class="write-a-comment">
+            <div class="author-avatar">
+              <img src="imgs/rahul-giri-avatar.jpg" alt="" />
+            </div>
+            <div class="comment_input">
+                <form>
+                    <input type="text" class="write-comment" placeholder="Write a comment ..." />
+                    <div class="comment_input__icons text-gray">
+                        <i class="fa-regular fa-face-smile"></i>
+                        <i class="fa-solid fa-camera-retro"></i>
+                        <i class="fa-light fa-image"></i>
 
-    <ul>
-      <li class="loading">Lorem ipsum, dolor sit amet consectetur adipisicing.</li>
-      <li class="loading">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit ipsum
-        quia quaerat?
-      </li>
-      <li class="loading"> 
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
-        perferendis aspernatur ipsum odit obcaecati.
-      </li>
-    </ul>
+                    </div>
+                </form>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </article>
   </body>
 </html>
