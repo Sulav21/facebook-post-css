@@ -1,0 +1,23 @@
+body{
+    font-family: arial;
+    background:#EFF2F5;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+img{
+    width:100%;
+}
+
+p{
+    line-height: 1.5rem;
+}
+
+.fs-90{
+    font-size: 90%;
+}
+
+.text-gray{
+    color:#666;
+}
